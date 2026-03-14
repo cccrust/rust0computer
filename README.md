@@ -1,4 +1,4 @@
-# rust0 -- 用 rust 重建簡易電腦工業
+# rust0computer -- 用 rust 重建簡易電腦工業
 
 * compiler -- 編譯器
     * [x] rust0c -- 簡化後的 RUST 語言 RUST0 之編譯器
