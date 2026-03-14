@@ -23,5 +23,7 @@
 
 * os
     * https://github.com/o8vm/octox
-* nn
-    * https://github.com/huggingface/candle
+* ai
+    * nn -- https://github.com/huggingface/candle
+    * agent -- https://github.com/zeroclaw-labs/zeroclaw
+
