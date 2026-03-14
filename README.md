@@ -17,7 +17,7 @@
     * [x] qd0vm -- qd0 的虛擬機
     * [x] qd0lib -- qd0 的指令呼叫與函式庫
     * [ ] ll0c -- 簡化後的 LLVM IR 中間碼組譯器，類似 llc
-* ai -- 人工智慧實作
+* ai -- 人工智慧
     * [x] nn -- 神經網路套件，類似 rust candle.
     * [x] llm -- 語言模型，類似 GPT
     * [ ] agent -- 代理人，類似 OpenClaw
@@ -28,7 +28,7 @@
 * net -- 網路相關
     * [x] telnet -- 重新實作 telnet
     * [ ] browser -- 簡易瀏覽器
-* eda -- 電子設計開發工具
+* eda -- 電子設計開發
     * [ ] verilog0 -- 簡化的 verilog0 語言之模擬器，類似 verilator, icarus verilog.
 
 ## 參考
