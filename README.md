@@ -1,10 +1,18 @@
 # rust0computer -- 用 rust 重建簡易電腦工業
 
+## 語言與格式
+
+* rust0 -- 簡化後的 rust 語言，副檔名為 .rs
+* js0 -- 簡化後的 JavaScript 語言，副檔名為 .js
+* ll0 -- 簡化後的 LLVM IR 文字格式，副檔名為 .ll
+* qd0 -- 動態語言虛擬機，採用 quadruple 四元組格式，副檔名為 .qd
+
+
 * compiler -- 編譯器
-    * [x] rust0c -- 簡化後的 RUST 語言 RUST0 之編譯器，類似 rustc
-    * [x] ll0vm -- 簡化後的 LLVM IR 中間碼虛擬機
-    * [x] js0c -- 簡化後的 JavaScript 語言 js0 之編譯器
-    * [x] qd0c -- 動態語言虛擬機之四元組中間碼 qd0 轉為 LLVM IR 的編譯器
+    * [x] rust0c -- rust0 之編譯器，類似 rustc
+    * [x] ll0vm -- ll0 中間碼虛擬機
+    * [x] js0c -- js0 之編譯器
+    * [x] qd0c -- qd0 轉為 ll 的編譯器
     * [x] qd0vm -- qd0 的虛擬機
     * [x] qd0lib -- qd0 的指令呼叫與函式庫
     * [ ] ll0c -- 簡化後的 LLVM IR 中間碼組譯器，類似 llc
