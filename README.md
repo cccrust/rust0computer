@@ -9,9 +9,9 @@
     * [x] nn -- 神經網路套件，類似 rust candle.
     * [x] llm -- 語言模型，類似 GPT
     * [ ] agent -- 代理人，類似 OpenClaw
-* os
+* os -- 作業系統
     * [ ] kernel -- 用 rust 寫的 RISCV 處理器上之作業系統
-* cpu
+* cpu -- 處理器
     * [ ] RISCV 處理器之 Verilog0 原始碼
 * net -- 網路相關
     * [ ] telnet -- 重新實作 telnet
