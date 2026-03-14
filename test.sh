@@ -1,0 +1,13 @@
+set -x
+# v0.1
+./rust0.sh main_add
+./rust0.sh main_call
+./rust0.sh main_fact
+./rust0.sh main_if
+./rust0.sh main_let
+# v0.2
+./rust0.sh main_arith
+./rust0.sh main_block
+./rust0.sh main_bool_logic
+./rust0.sh main_ops
+./rust0.sh main_while

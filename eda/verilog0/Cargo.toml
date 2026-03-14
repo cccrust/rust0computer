@@ -1,0 +1,18 @@
+[package]
+name = "rverilog"
+version = "0.1.0"
+edition = "2021"
+description = "A Verilog compiler that generates VVP-compatible bytecode, similar to iverilog"
+authors = ["verilog_compiler contributors"]
+
+[[bin]]
+name = "rverilog"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+thiserror = "1.0"
+logos = "0.13"
+
+[profile.release]
+opt-level = 3

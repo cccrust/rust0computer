@@ -1,0 +1,25 @@
+[workspace]
+# 定義這個工作區底下包含哪些套件 (Crates)
+members = [
+#    "cpu/riscv",
+#    "eda/verilog0",
+    "compiler/ir0vm",
+    "compiler/rust0c",
+#    "compiler/js0",
+#    "os/kernel",
+#    "net/telnet",
+#    "net/browser",
+#    "ai/nn",
+#    "ai/llm",
+#    "ai/agent",
+#    "common/utils" # 建議加入的共用模組
+]
+
+# 使用最新的 Cargo 解析器行為 (Rust 2021 edition 預設)
+resolver = "2"
+
+# 統一管理外部依賴版本 (選擇性，但強烈建議)
+# 這樣在子專案中只要寫 `tokio = { workspace = true }` 就能確保版本一致
+[workspace.dependencies]
+log = "0.4"
+anyhow = "1.0" # 用於統一的錯誤處理
