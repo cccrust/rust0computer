@@ -6,6 +6,7 @@
 * js0 -- 簡化後的 JavaScript 語言，副檔名為 .js
 * ll0 -- 簡化後的 LLVM IR 文字格式，副檔名為 .ll
 * qd0 -- 動態語言虛擬機，採用 quadruple 四元組格式，副檔名為 .qd
+* verilog0 -- 簡化的 verilog 語言，副檔名為 .v
 
 ## 實作工具
 
@@ -29,7 +30,7 @@
     * [x] telnet -- 重新實作 telnet
     * [ ] browser -- 簡易瀏覽器
 * eda -- 電子設計開發
-    * [ ] verilog0 -- 簡化的 verilog0 語言之模擬器，類似 verilator, icarus verilog.
+    * [ ] verilog0 -- verilog0 語言之模擬器，類似 verilator, icarus verilog.
 
 ## 參考
 
