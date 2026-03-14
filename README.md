@@ -18,3 +18,10 @@
     * [ ] browser -- 簡易瀏覽器
 * eda -- 電子設計開發工具
     * [ ] verilog0 -- 簡化的 verilog0 語言之模擬器
+
+## 參考
+
+* os
+    * https://github.com/o8vm/octox
+* nn
+    * https://github.com/huggingface/candle
