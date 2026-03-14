@@ -3,8 +3,8 @@
 * compiler -- 編譯器
     * [x] rust0c -- 簡化後的 RUST 語言 RUST0 之編譯器
     * [x] ir0vm -- 簡化後的 LLVM IR 中間碼虛擬機
+    * [x] js0c -- 簡化後的 JavaScript 語言 js0 之編譯器
     * [ ] ir0as -- 簡化後的 LLVM IR 中間碼組譯器 
-    * [ ] js0c -- 簡化後的 JavaScript 語言 js0 之編譯器
 * ai -- 人工智慧實作
     * [x] nn -- 神經網路套件，類似 rust candle.
     * [x] llm -- 語言模型，類似 GPT
