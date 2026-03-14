@@ -9,7 +9,7 @@ members = [
 #    "os/kernel",
 #    "net/telnet",
 #    "net/browser",
-#    "ai/nn",
+     "ai/nn",
 #    "ai/llm",
 #    "ai/agent",
 #    "common/utils" # 建議加入的共用模組

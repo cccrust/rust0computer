@@ -211,7 +211,7 @@ fn main() {
 
 fn demo_char_pipeline(device: Device, kind: &str, epochs: usize) {
     println!("\n=== char pipeline demo on {:?} ===", device);
-    let text = std::fs::read_to_string("data/exp.txt").expect("failed to read data/exp.txt");
+    let text = std::fs::read_to_string("_data/corpus/exp.txt").expect("failed to read _data/corpus/exp.txt");
     let vocab = CharVocab::new_from_text(&text);
     let ids = vocab.encode(&text);
     let block_size = 30;
@@ -372,7 +372,7 @@ fn clip_grad_norm(params: &[Tensor], max_norm: f32) {
 
 fn demo_char_gpt(device: Device) {
     println!("\n=== char gpt demo on {:?} ===", device);
-    let text = std::fs::read_to_string("data/exp.txt").expect("failed to read data/exp.txt");
+    let text = std::fs::read_to_string("_data/corpus/exp.txt").expect("failed to read _data/corpus/exp.txt");
     let vocab = CharVocab::new_from_text(&text);
     let ids = vocab.encode(&text);
     let block_size = 16;
