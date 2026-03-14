@@ -3,7 +3,7 @@
 members = [
 #    "cpu/riscv",
 #    "eda/verilog0",
-    "compiler/ir0vm",
+    "compiler/ll0/vm",
     "compiler/rust0c",
 #    "compiler/js0",
 #    "os/kernel",
