@@ -14,7 +14,7 @@
 * cpu -- 處理器
     * [ ] RISCV 處理器之 Verilog0 原始碼
 * net -- 網路相關
-    * [ ] telnet -- 重新實作 telnet
+    * [x] telnet -- 重新實作 telnet
     * [ ] browser -- 簡易瀏覽器
 * eda -- 電子設計開發工具
     * [ ] verilog0 -- 簡化的 verilog0 語言之模擬器
